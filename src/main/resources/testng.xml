@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" thread-count="1">
+	<test name="Testing">
+		<!-- <groups> <run> <exclude name = "Functionality" /> </run> </groups> -->
+		<classes>
+			<class name="com.crm.qa.testcases.SearchItem"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
